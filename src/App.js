@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ButtonComponent from "./components/Button";
+import ImageComponent from "./components/Image";
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+
+        <ImageComponent imageSrc="https://picsum.photos/300"></ImageComponent>
+        <ButtonComponent buttonText="Clicca qui!"></ButtonComponent>
       </header>
     </div>
   );
